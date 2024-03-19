@@ -1,7 +1,7 @@
 {
-  "name": "@stefan-karlsson/pnpm-workspace",
+  "name": "@stefan-karlsson/node-typescript-libs",
   "version": "0.0.0",
-  "description": "A PNPM workspace setup",
+  "description": "Node.js libraries with TypeScript for enhanced productivity",
   "type": "module",
   "scripts": {
     "build:all": "pnpm -r build",
@@ -10,10 +10,14 @@
     "format": "prettier --write . --ignore-unknown --cache",
     "prepare": "husky install"
   },
-  "author": "Stefan Karlsson",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefan-karlsson/pnpm-workspace.git"
+    "url": "https://github.com/stefan-karlsson/node-typescript-libs.git"
   },
   "license": "MIT",
   "devDependencies": {
