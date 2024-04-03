@@ -1,4 +1,4 @@
-import { colorIfAllowed } from "./color.utils";
+import { colorIfAllowed } from "./color.utils.js";
 
 /**
  * Hexadecimal Foreground Color Codes

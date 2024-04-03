@@ -1,0 +1,53 @@
+{
+  "name": "@aviene/core",
+  "description": "Provides essential building block for building quality software",
+  "version": "0.0.0",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
+  },
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/node-typescript-libs/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@aviene/exceptions": "workspace:^",
+    "@aviene/guards": "workspace:^",
+    "@aviene/common": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3",
+    "@types/node": "^20.11.30",
+    "@tsconfig/node-lts": "latest",
+    "@aviene/eslint-config-typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "keywords": [
+    "ddd",
+    "aviene"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/node-typescript-libs.git"
+  }
+}

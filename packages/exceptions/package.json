@@ -1,0 +1,49 @@
+{
+  "name": "@aviene/exceptions",
+  "description": "Provides a set of custom exception classes for handling errors in JavaScript applications",
+  "version": "0.0.0",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
+  },
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/node-typescript-libs/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3",
+    "@tsconfig/node-lts": "latest",
+    "@aviene/eslint-config-typescript": "latest",
+    "@types/node": "^20"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "keywords": [
+    "ddd",
+    "exceptions",
+    "aviene"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/node-typescript-libs.git"
+  }
+}
