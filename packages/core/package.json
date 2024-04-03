@@ -1,7 +1,7 @@
 {
   "name": "@aviene/core",
   "description": "Provides essential building block for building quality software",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
