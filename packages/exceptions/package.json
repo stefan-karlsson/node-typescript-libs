@@ -1,7 +1,7 @@
 {
   "name": "@aviene/exceptions",
   "description": "Provides a set of custom exception classes for handling errors in JavaScript applications",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -25,7 +25,9 @@
   "engines": {
     "node": ">=20"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
