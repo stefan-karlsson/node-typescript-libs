@@ -1,3 +1,7 @@
 dist
 node_modules
 .eslintcache
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json

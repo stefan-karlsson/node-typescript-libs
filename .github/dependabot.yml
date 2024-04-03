@@ -8,10 +8,20 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
+      interval: 'montly'
+
+  - package-ecosystem: 'npm'
+    directory: 'packages/core'
+    schedule:
       interval: 'weekly'
 
   - package-ecosystem: 'npm'
-    directory: '/packages/common'
+    directory: 'packages/guards'
+    schedule:
+      interval: 'weekly'
+  
+  - package-ecosystem: 'npm'
+    directory: 'packages/exceptions'
     schedule:
       interval: 'weekly'
 
