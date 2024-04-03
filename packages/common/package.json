@@ -1,7 +1,7 @@
 {
   "name": "@aviene/common",
   "description": "Provides commonly used functionallity",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
