@@ -1,32 +1,49 @@
 {
-  "name": "@stefan-karlsson/common",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stefan-karlsson/pnpm-workspace.git",
-    "directory": "packages/common"
+  "name": "@aviene/common",
+  "description": "Commonly used Typescript code",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
   },
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/node-typescript-libs/issues"
+  },
+  "type": "module",
   "scripts": {
-    "build": "vite build",
-    "release": "pnpm build && changeset publish"
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.1",
+    "@tsconfig/node-lts": "latest",
+    "@aviene/eslint-config-typescript": "latest",
+    "@types/node": "^20"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.js",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "node": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./dist/index.js"
+      "require": "./dist/index.cjs"
     }
   },
-  "devDependencies": {
-    "typescript": "^5.4.3",
-    "vite": "^5.2.8",
-    "vite-plugin-dts": "^3.7.3"
+  "keywords": [
+    "aviene"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/node-typescript-libs.git"
   }
 }

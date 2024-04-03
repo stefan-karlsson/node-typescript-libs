@@ -5,13 +5,12 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "noEmit": true,
-    "experimentalDecorators": true,
 
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-  
+
     "types": ["node"]
   },
   "include": ["src"]

@@ -1,7 +1,7 @@
 {
-  "name": "@aviene/ansi-escape",
-  "description": "ANSI Escape Sequences",
-  "version": "1.0.0",
+  "name": "@aviene/core",
+  "description": "Provides essential building block for building quality software",
+  "version": "0.0.3",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -14,9 +14,14 @@
   "scripts": {
     "build": "tsc && vite build"
   },
+  "dependencies": {
+    "@aviene/exceptions": "workspace:^",
+    "@aviene/guards": "workspace:^",
+    "@aviene/common": "workspace:^"
+  },
   "devDependencies": {
-    "typescript": "^5.4.3",
-    "vite": "^5.2.8",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
     "vite-plugin-dts": "^3.7.3",
     "@types/node": "^20.11.30",
     "@tsconfig/node-lts": "latest",
@@ -36,8 +41,7 @@
     }
   },
   "keywords": [
-    "ANSI Escape Sequences",
-    "Color Codes",
+    "ddd",
     "aviene"
   ],
   "license": "MIT",
