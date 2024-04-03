@@ -1,7 +1,7 @@
 {
   "name": "@aviene/guards",
   "description": "Provides a collection of guards to ensure data consistency",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -27,7 +27,9 @@
   "engines": {
     "node": ">=20"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
