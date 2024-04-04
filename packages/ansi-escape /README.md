@@ -9,12 +9,12 @@ Ensure that the terminal supports ANSI escape codes for the styling effects to b
 ## Example
 
 ```typescript
-import { color_code, graphics_mode } from "@aviene/ansi-escape";
+import { colorizeText, styleText } from "@aviene/ansi-escape";
 
 // Apply red color to text
-const redText = color_code.red("Hello, World!");
+const redText = colorizeText.red("Hello, World!");
 
 // Apply bold mode to text
-const boldText = graphics_mode.bold("Bold Text");
+const boldText = styleText.bold("Bold Text");
 ```
 

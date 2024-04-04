@@ -1,6 +1,6 @@
-import { isObject } from '../utils/shared.utils.js';
+import { isObject } from '../utils/index.js';
 import { ConsoleLogger } from './console-logger.service.js';
-import { isLogLevelEnabled } from './utils/index.js';
+import { isLogLevelEnabled } from './is-log-level-enabled.util.js';
 
 export type LogLevel = 'log' | 'error' | 'warn' | 'debug' | 'verbose' | 'fatal';
 

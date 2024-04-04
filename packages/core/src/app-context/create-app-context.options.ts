@@ -1,4 +1,4 @@
-import { Logger, LogLevel } from "@aviene/common";
+import { Logger, LogLevel } from "@aviene/common/logging";
 
 export class CreateAppContextOptions {
     /**

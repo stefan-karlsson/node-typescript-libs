@@ -33,6 +33,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./graphics": {
+      "types": "./dist/graphics.d.ts",
+      "import": "./dist/graphics.js",
+      "require": "./dist/graphics.cjs"
     }
   },
   "keywords": [

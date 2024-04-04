@@ -5,8 +5,10 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   build: {
     lib: {
-      entry: [resolve(__dirname, 'src/index.ts')],
-      fileName: 'index',
+      entry: {
+        'index': resolve(__dirname, 'src/graphics/index.ts'),
+        'graphics': resolve(__dirname, 'src/graphics/index.ts')
+      },
       formats: ['es', 'cjs']
     }
   },

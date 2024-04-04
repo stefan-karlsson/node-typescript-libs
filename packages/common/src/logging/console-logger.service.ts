@@ -1,13 +1,13 @@
 
-import { color_code, graphics_mode } from '@aviene/ansi-escape';
+import { styleText, colorizeText } from '@aviene/ansi-escape';
 import {
   isFunction,
   isPlainObject,
   isString,
   isUndefined,
-} from '../utils/shared.utils.js';
+} from '../utils/index.js';
 import { LoggerService, LogLevel } from './logger.service.js';
-import { isLogLevelEnabled } from './utils/index.js';
+import { isLogLevelEnabled } from './is-log-level-enabled.util.js';
 
 export interface ConsoleLoggerOptions {
   /**
@@ -224,7 +224,7 @@ export class ConsoleLogger implements LoggerService {
   }
 
   protected formatContext(context: string): string {
-    return context ? color_code.yellow(`[${context}] `) : '';
+    return context ? colorizeText.yellow(`[${context}] `) : '';
   }
 
   protected formatMessage(
@@ -286,7 +286,7 @@ export class ConsoleLogger implements LoggerService {
   }
 
   protected formatTimestampDiff(timestampDiff: number) {
-    return color_code.yellow(` +${timestampDiff}ms`);
+    return colorizeText.yellow(` +${timestampDiff}ms`);
   }
 
   private getContextAndMessagesToPrint(args: unknown[]) {
@@ -346,17 +346,17 @@ export class ConsoleLogger implements LoggerService {
   private getColorByLogLevel(level: LogLevel) {
     switch (level) {
       case 'debug':
-        return color_code.magenta;
+        return colorizeText.magenta;
       case 'warn':
-        return color_code.yellow;
+        return colorizeText.yellow;
       case 'error':
-        return color_code.red;
+        return colorizeText.red;
       case 'verbose':
-        return color_code.cyan;
+        return colorizeText.cyan;
       case 'fatal':
-        return graphics_mode.bold;
+        return styleText.bold;
       default:
-        return color_code.green;
+        return colorizeText.green;
     }
   }
 }

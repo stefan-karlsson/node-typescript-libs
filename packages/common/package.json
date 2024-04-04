@@ -14,6 +14,9 @@
   "scripts": {
     "build": "tsc && vite build"
   },
+  "dependencies": {
+    "@aviene/ansi-escape": "workspace:^"
+  },
   "devDependencies": {
     "typescript": "^5.4.3",
     "vite": "^5.2.8",
@@ -33,10 +36,21 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./logging": {
+      "types": "./dist/logging.d.ts",
+      "import": "./dist/logging.js",
+      "require": "./dist/logging.cjs"
+    },
+    "./utils": {
+      "types": "./dist/utils.d.ts",
+      "import": "./dist/utils.js",
+      "require": "./dist/utils.cjs"
     }
   },
   "keywords": [
-    "aviene"
+    "aviene",
+    "logging"
   ],
   "license": "MIT",
   "publishConfig": {
