@@ -37,6 +37,10 @@ importers:
         version: 3.8.1(@types/node@20.12.3)(typescript@5.4.3)(vite@5.2.8)
 
   packages/common:
+    dependencies:
+      '@aviene/ansi-escape':
+        specifier: workspace:^
+        version: 'link:../ansi-escape '
     devDependencies:
       '@aviene/eslint-config-typescript':
         specifier: latest
