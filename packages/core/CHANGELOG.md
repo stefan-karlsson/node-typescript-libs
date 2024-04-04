@@ -1,5 +1,13 @@
 # @aviene/core
 
+## 0.0.4
+
+### Patch Changes
+
+- d23031e: Changed how the libraries and code is organized
+- Updated dependencies [d23031e]
+  - @aviene/common@0.1.1
+
 ## 0.0.3
 
 ### Patch Changes
