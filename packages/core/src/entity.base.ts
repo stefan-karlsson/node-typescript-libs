@@ -4,7 +4,7 @@ import {
     ArgumentOutOfRangeException,
   } from '@aviene/exceptions';
   import { Guard } from '@aviene/guards';
-  import { convertPropsToObject } from './utils.js';
+  import { convertPropsToObject } from './domain.util.js';
   
   export type AggregateID = string;
   
