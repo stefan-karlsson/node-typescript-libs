@@ -1,12 +1,12 @@
 // import { RequestContextService } from '@libs/application/context/AppRequestContext';
 
 export interface SerializedException {
-  message: string;
-  code: string;
-  correlationId: string;
-  stack?: string;
-  cause?: string;
-  metadata?: unknown;
+  message: string
+  code: string
+  correlationId: string
+  stack?: string
+  cause?: string
+  metadata?: unknown
   /**
    * ^ Consider adding optional `metadata` object to
    * exceptions (if language doesn't support anything
@@ -15,7 +15,6 @@ export interface SerializedException {
    * This will make debugging easier.
    */
 }
-
 /**
  * Base class for custom exceptions.
  *
@@ -24,9 +23,11 @@ export interface SerializedException {
  * @extends {Error}
  */
 export abstract class ExceptionBase extends Error {
-  abstract code: string;
+  readonly correlationId!: string
+  readonly metadata: unknown
+  readonly cause?: Error
 
-  public readonly correlationId!: string;
+  abstract code: string
 
   /**
    * @param {string} message
@@ -37,12 +38,15 @@ export abstract class ExceptionBase extends Error {
    * info that may help with debugging.
    */
   constructor(
-    readonly message: string,
-    readonly cause?: Error,
-    readonly metadata?: unknown,
+    message: string,
+    cause?: Error,
+    metadata?: unknown,
   ) {
-    super(message);
-    Error.captureStackTrace(this, this.constructor);
+    super(message)
+    this.cause = cause
+    this.metadata = metadata
+
+    Error.captureStackTrace(this, this.constructor)
     // const ctx = RequestContextService.getContext();
     // this.correlationId = ctx.requestId;
   }
@@ -62,6 +66,6 @@ export abstract class ExceptionBase extends Error {
       correlationId: this.correlationId,
       cause: JSON.stringify(this.cause),
       metadata: this.metadata,
-    };
+    }
   }
 }
