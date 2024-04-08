@@ -1,27 +1,27 @@
 export function isEmpty(value: unknown): boolean {
   if (typeof value === 'number' || typeof value === 'boolean') {
-    return false;
+    return false
   }
 
   if (value instanceof Date) {
-    return false;
+    return false
   }
 
-  if (value === null || value === undefined) {
-    return true;
+  if (value === null || typeof value === 'undefined') {
+    return true
   }
 
   if (Object.keys(value).length === 0 && value.constructor === Object) {
-    return true;
+    return true
   }
 
   if (Array.isArray(value) && value.length === 0) {
-    return true;
+    return true
   }
 
   if (typeof value === 'string' && value.trim() === '') {
-    return true;
+    return true
   }
 
-  return false;
+  return false
 }

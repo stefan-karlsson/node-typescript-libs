@@ -1,1 +1,1 @@
-export { Guard } from './guard.js';
+export { isEmpty } from './is-empty.guard.js'

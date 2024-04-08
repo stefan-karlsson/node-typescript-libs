@@ -1,19 +1,19 @@
-import { resolve } from 'path';
-import { defineConfig } from 'vite';
-import dts from 'vite-plugin-dts';
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+import dts from 'vite-plugin-dts'
 
 export default defineConfig({
   build: {
     lib: {
       entry: [resolve(__dirname, 'src/index.ts')],
       fileName: 'index',
-      formats: ['es', 'cjs']
-    }
+      formats: ['es', 'cjs'],
+    },
   },
   plugins: [
     dts({
-      rollupTypes: true
-    })
+      rollupTypes: true,
+    }),
   ],
-  resolve: { alias: { src: resolve('src/') } }
-});
+  resolve: { alias: { src: resolve('src/') } },
+})
