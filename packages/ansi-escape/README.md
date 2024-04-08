@@ -17,4 +17,3 @@ const redText = colorizeText.red("Hello, World!");
 // Apply bold mode to text
 const boldText = styleText.bold("Bold Text");
 ```
-
