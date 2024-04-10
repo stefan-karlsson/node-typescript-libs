@@ -1,7 +1,7 @@
 {
   "name": "@aviene/common",
   "description": "Commonly used Typescript code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@aviene/ansi-escape": "workspace:^",
-
     "@aviene/common": "workspace:^"
   },
   "devDependencies": {

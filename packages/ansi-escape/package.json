@@ -1,7 +1,7 @@
 {
   "name": "@aviene/ansi-escape",
   "description": "ANSI Escape Sequences",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
