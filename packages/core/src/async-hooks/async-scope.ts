@@ -1,29 +1,30 @@
-import { AsyncLocalStorage } from "node:async_hooks";
+import { AsyncLocalStorage } from 'node:async_hooks'
 
-const asyncLocalStorage = new AsyncLocalStorage<AsyncScope>();
+const asyncLocalStorage = new AsyncLocalStorage<AsyncScope>()
 
 export interface AsyncScope {
-    [key: symbol]: unknown;
+  [key: symbol]: unknown
 }
-
 export class AsyncScope {
-    static get() {
-        const scope = asyncLocalStorage.getStore();
-        if (!scope) {
-            throw new Error('Scope not found');
-        }
+  constructor(callback: () => void) {
+    const parentScope = asyncLocalStorage.getStore()
 
-        return scope;
+    if (parentScope) {
+      Object.setPrototypeOf(this, parentScope)
     }
 
-    constructor(callback: () => void) {
-        const parentScope = asyncLocalStorage.getStore();
-        if (parentScope) {
-            Object.setPrototypeOf(this, parentScope);
-        }
+    asyncLocalStorage.run(this, callback)
+  }
 
-        asyncLocalStorage.run(this, callback);
+  static get() {
+    const scope = asyncLocalStorage.getStore()
+
+    if (!scope) {
+      throw new Error('Scope not found')
     }
+
+    return scope
+  }
 }
 
 

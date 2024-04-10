@@ -1,3 +1,5 @@
+import { } from '@aviene/core'
+
 /**
  * A Lambda function that returns a static string
  */

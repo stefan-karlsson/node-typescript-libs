@@ -1,4 +1,4 @@
-import { LogLevel } from './logger.service.js';
+import { type LogLevel } from './logger.service.js'
 
 const LOG_LEVEL_VALUES: Record<LogLevel, number> = {
   verbose: 0,
@@ -7,7 +7,7 @@ const LOG_LEVEL_VALUES: Record<LogLevel, number> = {
   warn: 3,
   error: 4,
   fatal: 5,
-};
+}
 
 /**
  * Checks if target level is enabled.
@@ -18,16 +18,17 @@ export function isLogLevelEnabled(
   targetLevel: LogLevel,
   logLevels: LogLevel[] | undefined,
 ): boolean {
-  if (!logLevels || (Array.isArray(logLevels) && logLevels?.length === 0)) {
-    return false;
+  if (!logLevels || (Array.isArray(logLevels) && logLevels.length === 0)) {
+    return false
   }
+
   if (logLevels.includes(targetLevel)) {
-    return true;
+    return true
   }
   const highestLogLevelValue = logLevels
     .map(level => LOG_LEVEL_VALUES[level])
-    .sort((a, b) => b - a)?.[0];
+    .sort((first, prev) => prev - first)[0]
 
-  const targetLevelValue = LOG_LEVEL_VALUES[targetLevel];
-  return targetLevelValue >= highestLogLevelValue;
+  const targetLevelValue = LOG_LEVEL_VALUES[targetLevel]
+  return targetLevelValue >= highestLogLevelValue
 }

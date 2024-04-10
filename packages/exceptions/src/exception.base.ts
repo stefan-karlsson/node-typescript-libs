@@ -7,13 +7,6 @@ export interface SerializedException {
   stack?: string
   cause?: string
   metadata?: unknown
-  /**
-   * ^ Consider adding optional `metadata` object to
-   * exceptions (if language doesn't support anything
-   * similar by default) and pass some useful technical
-   * information about the exception when throwing.
-   * This will make debugging easier.
-   */
 }
 /**
  * Base class for custom exceptions.

@@ -1,28 +1,7 @@
-export const isUndefined = (obj: any): obj is undefined => typeof obj === 'undefined';
-  
-export const isNil = (val: any): val is null | undefined => isUndefined(val) || val === null;
-
-export const isObject = (fn: any): fn is object => !isNil(fn) && typeof fn === 'object';
-
-export const isPlainObject = (fn: any): fn is object => {
-    if (!isObject(fn)) {
-      return false;
-    }
-    const proto = Object.getPrototypeOf(fn);
-    if (proto === null) {
-      return true;
-    }
-    const ctor =
-      Object.prototype.hasOwnProperty.call(proto, 'constructor') &&
-      proto.constructor;
-    return (
-      typeof ctor === 'function' &&
-      ctor instanceof ctor &&
-      Function.prototype.toString.call(ctor) ===
-        Function.prototype.toString.call(Object)
-    );
-  };
-
-  export const isString = (val: any): val is string => typeof val === 'string';
-
-  export const isFunction = (val: any): val is Function => typeof val === 'function';
+export { isEmpty } from './is-empty.util.js'
+export { isObject } from './is-object.util.js'
+export { isPresent } from './is-present.util.js'
+export { convertPropsToObject } from './convert-props-to-object.util.js'
+export { isFunction } from './is-function.util.js'
+export { isString } from './is-string.util.js'
+export { isUndefined } from './is-undefined.util.js'

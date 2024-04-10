@@ -1,23 +1,24 @@
+import { styleText, colorizeText } from '@aviene/ansi-escape'
+import { isFunction, isObject, isString, isUndefined } from '../utils/index.js'
+import { type LoggerService, type LogLevel } from './logger.service.js'
+import { isLogLevelEnabled } from './is-log-level-enabled.util.js'
 
-import { styleText, colorizeText } from '@aviene/ansi-escape';
-import {
-  isFunction,
-  isPlainObject,
-  isString,
-  isUndefined,
-} from '../utils/index.js';
-import { LoggerService, LogLevel } from './logger.service.js';
-import { isLogLevelEnabled } from './is-log-level-enabled.util.js';
-
-export interface ConsoleLoggerOptions {
+interface ConsoleLoggerOptions {
   /**
    * Enabled log levels.
    */
-  logLevels?: LogLevel[];
+  logLevels?: LogLevel[]
   /**
    * If enabled, will print timestamp (time difference) between current and previous log message.
    */
-  timestamp?: boolean;
+  timestamp?: boolean
+
+  /**
+   * The locale or locales to use
+   *
+   * See [MDN - Intl - locales argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
+   */
+  dateTimeFormat?: Intl.DateTimeFormat
 }
 
 const DEFAULT_LOG_LEVELS: LogLevel[] = [
@@ -27,33 +28,40 @@ const DEFAULT_LOG_LEVELS: LogLevel[] = [
   'debug',
   'verbose',
   'fatal',
-];
-
-const dateTimeFormatter = new Intl.DateTimeFormat(undefined, {
-  year: 'numeric',
-  hour: 'numeric',
-  minute: 'numeric',
-  second: 'numeric',
-  day: '2-digit',
-  month: '2-digit',
-});
+]
 
 export class ConsoleLogger implements LoggerService {
-  private static lastTimestampAt?: number;
-  private originalContext?: string;
+  private static lastTimestampAt?: number
+  protected context?: string
+  protected options?: ConsoleLoggerOptions = {}
 
-  constructor();
-  constructor(context: string);
-  constructor(context: string, options: ConsoleLoggerOptions);
+  private originalContext?: string
+  private dateTimeFormat: Intl.DateTimeFormat
+
+  constructor(context?: string, options?: ConsoleLoggerOptions)
   constructor(
-    protected context?: string,
-    protected options: ConsoleLoggerOptions = {},
+    context?: string,
+    options: ConsoleLoggerOptions = {},
   ) {
+    this.context = context
+    this.options = options
+
+    // eslint-disable-next-line no-undefined
+    this.dateTimeFormat = options.dateTimeFormat ?? new Intl.DateTimeFormat(undefined, {
+      year: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+      day: '2-digit',
+      month: '2-digit',
+    })
+
     if (!options.logLevels) {
-      options.logLevels = DEFAULT_LOG_LEVELS;
+      options.logLevels = DEFAULT_LOG_LEVELS
     }
+
     if (context) {
-      this.originalContext = context;
+      this.originalContext = context
     }
   }
 
@@ -61,103 +69,102 @@ export class ConsoleLogger implements LoggerService {
    * Write a 'log' level log, if the configured level allows for it.
    * Prints to `stdout` with newline.
    */
-  log(message: any, context?: string): void;
-  log(message: any, ...optionalParams: [...any, string?]): void;
-  log(message: any, ...optionalParams: any[]) {
+  log(message: unknown, context?: string): void
+  log(message: unknown, ...optionalParams: [...unknown[], string]): void
+  log(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('log')) {
-      return;
+      return
     }
     const { messages, context } = this.getContextAndMessagesToPrint([
       message,
       ...optionalParams,
-    ]);
-    this.printMessages(messages, context, 'log');
+    ])
+    this.printMessages(messages, context, 'log')
   }
 
   /**
    * Write an 'error' level log, if the configured level allows for it.
    * Prints to `stderr` with newline.
    */
-  error(message: any, stackOrContext?: string): void;
-  error(message: any, stack?: string, context?: string): void;
-  error(message: any, ...optionalParams: [...any, string?, string?]): void;
-  error(message: any, ...optionalParams: any[]) {
+  error(message: unknown, stack?: string, context?: string): void
+  error(message: unknown, ...optionalParams: [...unknown[], string, string]): void
+  error(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('error')) {
-      return;
+      return
     }
-    const { messages, context, stack } =
-      this.getContextAndStackAndMessagesToPrint([message, ...optionalParams]);
+    const { messages, context, stack }
+      = this.getContextAndStackAndMessagesToPrint([message, ...optionalParams])
 
-    this.printMessages(messages, context, 'error', 'stderr');
-    this.printStackTrace(stack ?? '');
+    this.printMessages(messages, context, 'error', 'stderr')
+    this.printStackTrace(stack ?? '')
   }
 
   /**
    * Write a 'warn' level log, if the configured level allows for it.
    * Prints to `stdout` with newline.
    */
-  warn(message: any, context?: string): void;
-  warn(message: any, ...optionalParams: [...any, string?]): void;
-  warn(message: any, ...optionalParams: any[]) {
+  warn(message: unknown, context?: string): void
+  warn(message: unknown, ...optionalParams: [...unknown[], string]): void
+  warn(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('warn')) {
-      return;
+      return
     }
     const { messages, context } = this.getContextAndMessagesToPrint([
       message,
       ...optionalParams,
-    ]);
-    this.printMessages(messages, context, 'warn');
+    ])
+    this.printMessages(messages, context, 'warn')
   }
 
   /**
    * Write a 'debug' level log, if the configured level allows for it.
    * Prints to `stdout` with newline.
    */
-  debug(message: any, context?: string): void;
-  debug(message: any, ...optionalParams: [...any, string?]): void;
-  debug(message: any, ...optionalParams: any[]) {
+  debug(message: unknown, context?: string): void
+  debug(message: unknown, ...optionalParams: [...unknown[], string]): void
+  debug(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('debug')) {
-      return;
+      return
     }
     const { messages, context } = this.getContextAndMessagesToPrint([
       message,
       ...optionalParams,
-    ]);
-    this.printMessages(messages, context, 'debug');
+    ])
+    this.printMessages(messages, context, 'debug')
   }
 
   /**
    * Write a 'verbose' level log, if the configured level allows for it.
    * Prints to `stdout` with newline.
    */
-  verbose(message: any, context?: string): void;
-  verbose(message: any, ...optionalParams: [...any, string?]): void;
-  verbose(message: any, ...optionalParams: any[]) {
+  verbose(message: unknown, context?: string): void
+  verbose(message: unknown, ...optionalParams: [...unknown[], string]): void
+  verbose(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('verbose')) {
-      return;
+      return
     }
     const { messages, context } = this.getContextAndMessagesToPrint([
       message,
       ...optionalParams,
-    ]);
-    this.printMessages(messages, context, 'verbose');
+    ])
+    this.printMessages(messages, context, 'verbose')
   }
 
   /**
    * Write a 'fatal' level log, if the configured level allows for it.
    * Prints to `stdout` with newline.
    */
-  fatal(message: any, context?: string): void;
-  fatal(message: any, ...optionalParams: [...any, string?]): void;
-  fatal(message: any, ...optionalParams: any[]) {
+  fatal(message: unknown, context?: string): void
+  fatal(message: unknown, ...optionalParams: [...unknown[], string]): void
+  fatal(message: unknown, ...optionalParams: unknown[]) {
     if (!this.isLevelEnabled('fatal')) {
-      return;
+      return
     }
     const { messages, context } = this.getContextAndMessagesToPrint([
       message,
       ...optionalParams,
-    ]);
-    this.printMessages(messages, context, 'fatal');
+    ])
+    this.printMessages(messages, context, 'fatal')
   }
 
   /**
@@ -166,9 +173,9 @@ export class ConsoleLogger implements LoggerService {
    */
   setLogLevels(levels: LogLevel[]) {
     if (!this.options) {
-      this.options = {};
+      this.options = {}
     }
-    this.options.logLevels = levels;
+    this.options.logLevels = levels
   }
 
   /**
@@ -176,23 +183,23 @@ export class ConsoleLogger implements LoggerService {
    * @param context context
    */
   setContext(context: string) {
-    this.context = context;
+    this.context = context
   }
 
   /**
    * Resets the logger context to the value that was passed in the constructor.
    */
   resetContext() {
-    this.context = this.originalContext;
+    this.context = this.originalContext
   }
 
   isLevelEnabled(level: LogLevel): boolean {
-    const logLevels = this.options?.logLevels;
-    return isLogLevelEnabled(level, logLevels);
+    const logLevels = this.options?.logLevels
+    return isLogLevelEnabled(level, logLevels)
   }
 
   protected getTimestamp(): string {
-    return dateTimeFormatter.format(Date.now());
+    return this.dateTimeFormat.format(Date.now())
   }
 
   protected printMessages(
@@ -202,10 +209,10 @@ export class ConsoleLogger implements LoggerService {
     writeStreamType?: 'stdout' | 'stderr',
   ) {
     messages.forEach(message => {
-      const pidMessage = this.formatPid(process.pid);
-      const contextMessage = this.formatContext(context);
-      const timestampDiff = this.updateAndGetTimestampDiff();
-      const formattedLogLevel = logLevel.toUpperCase().padStart(7, ' ');
+      const pidMessage = this.formatPid(process.pid)
+      const contextMessage = this.formatContext(context)
+      const timestampDiff = this.updateAndGetTimestampDiff()
+      const formattedLogLevel = logLevel.toUpperCase().padStart(7, ' ')
       const formattedMessage = this.formatMessage(
         logLevel,
         message,
@@ -213,20 +220,21 @@ export class ConsoleLogger implements LoggerService {
         formattedLogLevel,
         contextMessage,
         timestampDiff,
-      );
+      )
 
-      process[writeStreamType ?? 'stdout'].write(formattedMessage);
-    });
+      process[writeStreamType ?? 'stdout'].write(formattedMessage)
+    })
   }
 
   protected formatPid(pid: number) {
-    return `[Nest] ${pid}  - `;
+    return `[Aviene] ${pid}  - `
   }
 
   protected formatContext(context: string): string {
-    return context ? colorizeText.yellow(`[${context}] `) : '';
+    return context ? colorizeText.yellow(`[${context}] `) : ''
   }
 
+  // eslint-disable-next-line max-params
   protected formatMessage(
     logLevel: LogLevel,
     message: unknown,
@@ -235,128 +243,134 @@ export class ConsoleLogger implements LoggerService {
     contextMessage: string,
     timestampDiff: string,
   ) {
-    const output = this.stringifyMessage(message, logLevel);
-    pidMessage = this.colorize(pidMessage, logLevel);
-    formattedLogLevel = this.colorize(formattedLogLevel, logLevel);
-    return `${pidMessage}${this.getTimestamp()} ${formattedLogLevel} ${contextMessage}${output}${timestampDiff}\n`;
+    const output = this.stringifyMessage(message, logLevel)
+    pidMessage = this.colorize(pidMessage, logLevel)
+    formattedLogLevel = this.colorize(formattedLogLevel, logLevel)
+    return `${pidMessage}${this.getTimestamp()} ${formattedLogLevel} ${contextMessage}${output}${timestampDiff}\n`
   }
 
-  protected stringifyMessage(message: unknown, logLevel: LogLevel): any {
+  protected stringifyMessage(message: unknown, logLevel: LogLevel): string {
     if (isFunction(message)) {
-      const messageAsStr = Function.prototype.toString.call(message);
-      const isClass = messageAsStr.startsWith('class ');
+      const messageAsStr = Function.prototype.toString.call(message)
+      const isClass = messageAsStr.startsWith('class ')
+
       if (isClass) {
         // If the message is a class, we will display the class name.
-        return this.stringifyMessage(message.name, logLevel);
+        return this.stringifyMessage(message.name, logLevel)
       }
       // If the message is a non-class function, call it and re-resolve its value.
-      return this.stringifyMessage(message(), logLevel);
+      return this.stringifyMessage(message(), logLevel)
     }
 
-    return isPlainObject(message) || Array.isArray(message)
+    return isObject(message) || Array.isArray(message)
       ? `${this.colorize('Object:', logLevel)}\n${JSON.stringify(
-          message,
-          (_key, value) =>
-            typeof value === 'bigint' ? value.toString() : value,
-          2,
-        )}\n`
-      : this.colorize(message as string, logLevel);
+        message,
+        (_, value) =>
+          typeof value === 'bigint' ? value.toString() : value as unknown,
+        2,
+      )}\n`
+      : this.colorize(message as string, logLevel)
   }
 
   protected colorize(message: string, logLevel: LogLevel) {
-    const color = this.getColorByLogLevel(logLevel);
-    return color(message);
+    const color = this.getColorByLogLevel(logLevel)
+    return color(message)
   }
 
   protected printStackTrace(stack: string) {
     if (!stack) {
-      return;
+      return
     }
-    process.stderr.write(`${stack}\n`);
+    process.stderr.write(`${stack}\n`)
   }
 
   protected updateAndGetTimestampDiff(): string {
-    const includeTimestamp =
-      ConsoleLogger.lastTimestampAt && this.options?.timestamp;
+    const lastTimestampAt = ConsoleLogger.lastTimestampAt
+    const includeTimestamp = lastTimestampAt && this.options?.timestamp
     const result = includeTimestamp
-      ? this.formatTimestampDiff(Date.now() - ConsoleLogger.lastTimestampAt!)
-      : '';
-    ConsoleLogger.lastTimestampAt = Date.now();
-    return result;
+      ? this.formatTimestampDiff(Date.now() - lastTimestampAt)
+      : ''
+    ConsoleLogger.lastTimestampAt = Date.now()
+    return result
   }
 
   protected formatTimestampDiff(timestampDiff: number) {
-    return colorizeText.yellow(` +${timestampDiff}ms`);
+    return colorizeText.yellow(` +${timestampDiff}ms`)
   }
 
   private getContextAndMessagesToPrint(args: unknown[]) {
-    if (args?.length <= 1) {
-      return { messages: args, context: this.context };
+    if (args.length <= 1) {
+      return { messages: args, context: this.context }
     }
-    const lastElement = args[args.length - 1];
-    const isContext = isString(lastElement);
+    const lastElement = args[args.length - 1]
+    const isContext = isString(lastElement)
+
     if (!isContext) {
-      return { messages: args, context: this.context };
+      return { messages: args, context: this.context }
     }
     return {
-      context: lastElement as string,
+      context: lastElement,
       messages: args.slice(0, args.length - 1),
-    };
+    }
   }
 
   private getContextAndStackAndMessagesToPrint(args: unknown[]) {
     if (args.length === 2) {
       return this.isStackFormat(args[1])
         ? {
-            messages: [args[0]],
-            stack: args[1] as string,
-            context: this.context,
-          }
+          messages: [args[0]],
+          stack: args[1] as string,
+          context: this.context,
+        }
         : {
-            messages: [args[0]],
-            context: args[1] as string,
-          };
+          messages: [args[0]],
+          context: args[1] as string,
+        }
     }
 
-    const { messages, context } = this.getContextAndMessagesToPrint(args);
-    if (messages?.length <= 1) {
-      return { messages, context };
+    const { messages, context } = this.getContextAndMessagesToPrint(args)
+
+    if (messages.length <= 1) {
+      return { messages, context }
     }
-    const lastElement = messages[messages.length - 1];
-    const isStack = isString(lastElement);
+
+    const lastElement = messages[messages.length - 1]
+    const isStack = isString(lastElement)
 
     if (!isStack && !isUndefined(lastElement)) {
-      return { messages, context };
+      return { messages, context }
     }
+
     return {
-      stack: lastElement as string,
+      stack: lastElement,
       messages: messages.slice(0, messages.length - 1),
       context,
-    };
+    }
   }
 
   private isStackFormat(stack: unknown) {
-    if (!isString(stack) && !isUndefined(stack)) {
-      return false;
+    if (!isString(stack)) {
+      return false
     }
 
-    return /^(.)+\n\s+at .+:\d+:\d+/.test(stack!);
+    return /^(?:.)+\n\s+at .+:\d+:\d+/u.test(stack)
   }
 
   private getColorByLogLevel(level: LogLevel) {
     switch (level) {
       case 'debug':
-        return colorizeText.magenta;
+        return colorizeText.magenta
       case 'warn':
-        return colorizeText.yellow;
+        return colorizeText.yellow
       case 'error':
-        return colorizeText.red;
+        return colorizeText.red
       case 'verbose':
-        return colorizeText.cyan;
+        return colorizeText.cyan
       case 'fatal':
-        return styleText.bold;
+        return styleText.bold
       default:
-        return colorizeText.green;
+        return colorizeText.green
     }
   }
 }
+export type { ConsoleLoggerOptions }

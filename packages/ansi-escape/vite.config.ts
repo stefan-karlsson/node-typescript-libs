@@ -17,5 +17,4 @@ export default defineConfig({
       rollupTypes: true,
     }),
   ],
-  resolve: { alias: { src: resolve('src/') } },
 })
