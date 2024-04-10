@@ -1,6 +1,6 @@
 {
-  "name": "replaced-by-user-input",
-  "description": "replaced-by-user-input",
+  "name": "aws-app",
+  "description": "aws-app",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
