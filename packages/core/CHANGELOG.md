@@ -1,5 +1,14 @@
 # @aviene/core
 
+## 0.0.5
+
+### Patch Changes
+
+- 3d4190a: A lot of changes
+- Updated dependencies [3d4190a]
+  - @aviene/exceptions@0.1.1
+  - @aviene/common@0.1.2
+
 ## 0.0.4
 
 ### Patch Changes
