@@ -4,5 +4,6 @@ export default {
     "entryPoints": ["packages/*"],
     "name": "@aviene/node-typescript-libs",
     "entryPointStrategy": "packages",
-    "out": "./docs"
+    "out": "./docs",
+    "cacheBust": false
   }
