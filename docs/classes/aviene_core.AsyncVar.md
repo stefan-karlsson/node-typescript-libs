@@ -55,7 +55,7 @@ Constructor for RequestVariable class.
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L13)
+[core/src/async-hooks/async-var.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L13)
 
 ## Properties
 
@@ -65,7 +65,7 @@ Constructor for RequestVariable class.
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L7)
+[core/src/async-hooks/async-var.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L7)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L8)
+[core/src/async-hooks/async-var.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L8)
 
 ## Methods
 
@@ -93,7 +93,7 @@ True if the variable exists, false otherwise.
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:47](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L47)
+[core/src/async-hooks/async-var.ts:47](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L47)
 
 ___
 
@@ -115,7 +115,7 @@ Error if the variable does not exist.
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L33)
+[core/src/async-hooks/async-var.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L33)
 
 ___
 
@@ -137,4 +137,4 @@ Set the value of the variable in the current scope.
 
 #### Defined in
 
-[core/src/async-hooks/async-var.ts:22](https://github.com/stefan-karlsson/node-typescript-libs/blob/09c66e6c8f5475d1646ff06b638a6fda47b91d17/packages/core/src/async-hooks/async-var.ts#L22)
+[core/src/async-hooks/async-var.ts:22](https://github.com/stefan-karlsson/node-typescript-libs/blob/3d661a9af468f7d8b9f3f5a06e57337f1efbadb8/packages/core/src/async-hooks/async-var.ts#L22)
