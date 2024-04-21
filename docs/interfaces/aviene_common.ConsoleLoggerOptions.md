@@ -24,7 +24,7 @@ See [MDN - Intl - locales argument](https://developer.mozilla.org/en-US/docs/Web
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/93075a9db291983365d2d64699fe0aa21c211891/packages/common/src/logging/console-logger.service.ts#L21)
+[common/src/logging/console-logger.service.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/9e7cb8b8d79ea5fe480dc969ed56d0a00be0dc5e/packages/common/src/logging/console-logger.service.ts#L21)
 
 ___
 
@@ -36,7 +36,7 @@ Enabled log levels.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:10](https://github.com/stefan-karlsson/node-typescript-libs/blob/93075a9db291983365d2d64699fe0aa21c211891/packages/common/src/logging/console-logger.service.ts#L10)
+[common/src/logging/console-logger.service.ts:10](https://github.com/stefan-karlsson/node-typescript-libs/blob/9e7cb8b8d79ea5fe480dc969ed56d0a00be0dc5e/packages/common/src/logging/console-logger.service.ts#L10)
 
 ___
 
@@ -48,4 +48,4 @@ If enabled, will print timestamp (time difference) between current and previous 
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:14](https://github.com/stefan-karlsson/node-typescript-libs/blob/93075a9db291983365d2d64699fe0aa21c211891/packages/common/src/logging/console-logger.service.ts#L14)
+[common/src/logging/console-logger.service.ts:14](https://github.com/stefan-karlsson/node-typescript-libs/blob/9e7cb8b8d79ea5fe480dc969ed56d0a00be0dc5e/packages/common/src/logging/console-logger.service.ts#L14)
