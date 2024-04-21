@@ -1,13 +1,13 @@
-import { AsyncScope } from './async-scope.js'
+import { RequestContext } from './async-scope.js'
 
 /**
  * Represents an asynchronous variable.
  */
-export class AsyncVar<T> {
+export class RequestVariable<T> {
   readonly name: string
   private readonly symbol: symbol
   /**
-     * Constructor for AsyncVar class.
+     * Constructor for RequestVariable class.
      * @param name The name of the variable.
      */
   constructor(name: string) {
@@ -20,18 +20,18 @@ export class AsyncVar<T> {
      * @param value The value to set.
      */
   set(value: T) {
-    const scope = AsyncScope.get()
+    const scope = RequestContext.get()
 
     scope[this.symbol] = value
   }
 
   /**
-     * Get the value of the variable from the current {@link AsyncScope}.
+     * Get the value of the variable from the current {@link RequestContext}.
      * @returns The value of the variable.
      * @throws Error if the variable does not exist.
      */
   get() {
-    const scope = AsyncScope.get()
+    const scope = RequestContext.get()
 
     if (!(this.symbol in scope)) {
       throw new Error(`Variable "${this.name}" not found in scope `)
@@ -41,11 +41,11 @@ export class AsyncVar<T> {
   }
 
   /**
-     * Check if the variable exists in the current {@link AsyncScope}.
+     * Check if the variable exists in the current {@link RequestContext}.
      * @returns True if the variable exists, false otherwise.
      */
   exists() {
-    const scope = AsyncScope.get()
+    const scope = RequestContext.get()
 
     return this.symbol in scope
   }

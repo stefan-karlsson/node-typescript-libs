@@ -1,4 +1,0 @@
-{
-  "extends": ["@aviene/typedoc-config"],
-  "entryPoints": ["src/index.ts"]
-}

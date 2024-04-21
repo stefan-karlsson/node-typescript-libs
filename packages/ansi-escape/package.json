@@ -17,7 +17,7 @@
     "create:docs": "typedoc"
   },
   "devDependencies": {
-    "@aviene/typedoc-config": "latest",
+    "@aviene/typedoc-config-markdown": "latest",
     "@aviene/eslint-config-node": "latest",
     "@aviene/eslint-config-typescript": "latest",
     "@tsconfig/node-lts": "^20.1.3",

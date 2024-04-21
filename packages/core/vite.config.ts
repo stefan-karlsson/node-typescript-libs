@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: {
         index: resolve(__dirname, 'src/index.ts'),
-        'app-context': resolve(__dirname, 'src/app-context/index.ts'),
+        'app-context': resolve(__dirname, 'src/request-context/index.ts'),
         'async-hooks': resolve(__dirname, 'src/async-hooks/index.ts'),
       },
       formats: ['es', 'cjs'],

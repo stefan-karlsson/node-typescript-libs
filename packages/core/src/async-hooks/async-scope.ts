@@ -1,11 +1,11 @@
 import { AsyncLocalStorage } from 'node:async_hooks'
 
-const asyncLocalStorage = new AsyncLocalStorage<AsyncScope>()
+const asyncLocalStorage = new AsyncLocalStorage<RequestContext>()
 
-export interface AsyncScope {
+export interface RequestContext {
   [key: symbol]: unknown
 }
-export class AsyncScope {
+export class RequestContext {
   constructor(callback: () => void) {
     const parentScope = asyncLocalStorage.getStore()
 
