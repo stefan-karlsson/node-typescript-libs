@@ -60,3 +60,10 @@ jobs:
 
       - name: 🛠️ Generate
         run: pnpm create:docs
+      
+      - name: 🚀 Deploy
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'docs'
+          message: 'docs: auto-generate markdown'
+
