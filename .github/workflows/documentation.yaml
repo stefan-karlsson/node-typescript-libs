@@ -64,6 +64,7 @@ jobs:
       - name: 🚀 Deploy
         uses: EndBug/add-and-commit@v9
         with:
+          commit: -f
           add: 'docs'
           message: 'docs: auto-generate markdown'
 
