@@ -1,4 +1,4 @@
-[Packages - v0.0.0](../README.md) / [Exports](../modules.md) / @aviene/core
+[@aviene/node-typescript-libs - v0.0.0](../README.md) / [Exports](../modules.md) / @aviene/core
 
 # Module: @aviene/core
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[core/src/entity.base.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/80ecdfdf920e18b5f7ceb513cda7ec5f048599cf/packages/core/src/entity.base.ts#L8)
+[core/src/entity.base.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/80930f07ea4cff29eaf66b7a918e2308e11bf9cc/packages/core/src/entity.base.ts#L8)
 
 ___
 
@@ -46,7 +46,7 @@ Data type that is used to define objects in JavaScript
 
 #### Defined in
 
-[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/80ecdfdf920e18b5f7ceb513cda7ec5f048599cf/packages/common/src/types/object-literal.type.ts#L4)
+[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/80930f07ea4cff29eaf66b7a918e2308e11bf9cc/packages/common/src/types/object-literal.type.ts#L4)
 
 ## Variables
 
@@ -67,4 +67,4 @@ application.
 
 #### Defined in
 
-[core/src/request-context/app.factory.ts:27](https://github.com/stefan-karlsson/node-typescript-libs/blob/80ecdfdf920e18b5f7ceb513cda7ec5f048599cf/packages/core/src/request-context/app.factory.ts#L27)
+[core/src/request-context/app.factory.ts:27](https://github.com/stefan-karlsson/node-typescript-libs/blob/80930f07ea4cff29eaf66b7a918e2308e11bf9cc/packages/core/src/request-context/app.factory.ts#L27)

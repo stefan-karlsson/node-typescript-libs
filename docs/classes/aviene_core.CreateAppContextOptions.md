@@ -1,4 +1,4 @@
-[Packages - v0.0.0](../README.md) / [Exports](../modules.md) / [@aviene/core](../modules/aviene_core.md) / CreateAppContextOptions
+[@aviene/node-typescript-libs - v0.0.0](../README.md) / [Exports](../modules.md) / [@aviene/core](../modules/aviene_core.md) / CreateAppContextOptions
 
 # Class: CreateAppContextOptions
 
@@ -34,4 +34,4 @@ Specifies the logger to use.  Pass `false` to turn off logging.
 
 #### Defined in
 
-[core/src/request-context/create-app-context.options.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/80ecdfdf920e18b5f7ceb513cda7ec5f048599cf/packages/core/src/request-context/create-app-context.options.ts#L7)
+[core/src/request-context/create-app-context.options.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/80930f07ea4cff29eaf66b7a918e2308e11bf9cc/packages/core/src/request-context/create-app-context.options.ts#L7)

@@ -1,4 +1,4 @@
-Packages / [Exports](modules.md)
+@aviene/node-typescript-libs / [Exports](modules.md)
 
 # Node Typescript Lib
 
