@@ -42,7 +42,7 @@ Write a 'debug' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:26](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L26)
+[common/src/logging/logger.service.ts:26](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L26)
 
 ___
 
@@ -65,7 +65,7 @@ Write an 'error' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L16)
+[common/src/logging/logger.service.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L16)
 
 ___
 
@@ -88,7 +88,7 @@ Write a 'fatal' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:36](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L36)
+[common/src/logging/logger.service.ts:36](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L36)
 
 ___
 
@@ -111,7 +111,7 @@ Write a 'log' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L11)
+[common/src/logging/logger.service.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L11)
 
 ___
 
@@ -133,7 +133,7 @@ Set log levels.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:42](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L42)
+[common/src/logging/logger.service.ts:42](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L42)
 
 ___
 
@@ -156,7 +156,7 @@ Write a 'verbose' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:31](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L31)
+[common/src/logging/logger.service.ts:31](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L31)
 
 ___
 
@@ -179,4 +179,4 @@ Write a 'warn' level log.
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/aa0b6ede2c75bdc1c85d15ee14e54f213e0d5451/packages/common/src/logging/logger.service.ts#L21)
+[common/src/logging/logger.service.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/2a59cb05344ed5dbd1625253195147651028e0fd/packages/common/src/logging/logger.service.ts#L21)
