@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[core/src/entity.base.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/d1010e902b765670d1318875f85ed1e8f74c9fa6/packages/core/src/entity.base.ts#L8)
+[core/src/entity.base.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/66bf374950a078d26e2fe5d936758b7663f4f858/packages/core/src/entity.base.ts#L8)
 
 ___
 
@@ -46,7 +46,7 @@ Data type that is used to define objects in JavaScript
 
 #### Defined in
 
-[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/d1010e902b765670d1318875f85ed1e8f74c9fa6/packages/common/src/types/object-literal.type.ts#L4)
+[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/66bf374950a078d26e2fe5d936758b7663f4f858/packages/common/src/types/object-literal.type.ts#L4)
 
 ## Variables
 
@@ -67,4 +67,4 @@ application.
 
 #### Defined in
 
-[core/src/request-context/app.factory.ts:27](https://github.com/stefan-karlsson/node-typescript-libs/blob/d1010e902b765670d1318875f85ed1e8f74c9fa6/packages/core/src/request-context/app.factory.ts#L27)
+[core/src/request-context/app.factory.ts:27](https://github.com/stefan-karlsson/node-typescript-libs/blob/66bf374950a078d26e2fe5d936758b7663f4f858/packages/core/src/request-context/app.factory.ts#L27)
