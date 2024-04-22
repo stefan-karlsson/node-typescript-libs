@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:1](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L1)
+[packages/exceptions/src/exception.codes.ts:1](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L1)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:3](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L3)
+[packages/exceptions/src/exception.codes.ts:3](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L3)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:2](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L2)
+[packages/exceptions/src/exception.codes.ts:2](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L2)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:5](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L5)
+[packages/exceptions/src/exception.codes.ts:5](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L5)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L6)
+[packages/exceptions/src/exception.codes.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L6)
 
 ___
 
@@ -85,4 +85,4 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.codes.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/953b53dd47a725ff3fc4870a9ced72f5965b3cfb/packages/exceptions/src/exception.codes.ts#L4)
+[packages/exceptions/src/exception.codes.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/de9323c2000f56a5a02fdd902380fe7b1b0d5933/packages/exceptions/src/exception.codes.ts#L4)
