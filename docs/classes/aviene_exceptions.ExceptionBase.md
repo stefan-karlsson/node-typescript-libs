@@ -75,7 +75,7 @@ Error.constructor
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L33)
+[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L33)
 
 ## Properties
 
@@ -89,7 +89,7 @@ Error.cause
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:23](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L23)
+[packages/exceptions/src/exception.base.ts:23](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L23)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -230,7 +230,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/6841f0aa5db19c266a6d2e2d5aa3693a97f8e41d/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/a0022f04f0e178bc1918ef83d5d8c223f968b0f4/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
