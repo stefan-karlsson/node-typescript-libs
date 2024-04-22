@@ -34,4 +34,4 @@ Specifies the logger to use.  Pass `false` to turn off logging.
 
 #### Defined in
 
-[core/src/request-context/create-app-context.options.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/f667c46de6aec2e0ccd0fa42bb399af776476b27/packages/core/src/request-context/create-app-context.options.ts#L7)
+[core/src/request-context/create-app-context.options.ts:7](https://github.com/stefan-karlsson/node-typescript-libs/blob/ab6d0994a6d8e8d45cd37443df58fba3c39c246f/packages/core/src/request-context/create-app-context.options.ts#L7)
