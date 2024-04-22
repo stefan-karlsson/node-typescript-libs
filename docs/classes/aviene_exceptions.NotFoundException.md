@@ -60,7 +60,7 @@ Used to indicate that entity is not found
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/not-found.exception.ts:14](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exceptions/not-found.exception.ts#L14)
+[packages/exceptions/src/exceptions/not-found.exception.ts:14](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exceptions/not-found.exception.ts#L14)
 
 ## Properties
 
@@ -74,7 +74,7 @@ Used to indicate that entity is not found
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/not-found.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exceptions/not-found.exception.ts#L13)
+[packages/exceptions/src/exceptions/not-found.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exceptions/not-found.exception.ts#L13)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/not-found.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exceptions/not-found.exception.ts#L12)
+[packages/exceptions/src/exceptions/not-found.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exceptions/not-found.exception.ts#L12)
 
 ___
 
@@ -241,7 +241,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/a6ee1b56ac0018d8bd22c5fb77b04199fff7a818/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/6f489f66f4f513699ed74bb6b9d4319b74bc355c/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
