@@ -62,7 +62,7 @@ Used to indicate that an argument is out of allowed range
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exception.base.ts#L33)
+[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exception.base.ts#L33)
 
 ## Properties
 
@@ -76,7 +76,7 @@ Used to indicate that an argument is out of allowed range
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/argument-out-of-range.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exceptions/argument-out-of-range.exception.ts#L13)
+[packages/exceptions/src/exceptions/argument-out-of-range.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exceptions/argument-out-of-range.exception.ts#L13)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -233,7 +233,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/e4c9ce3f02eb3562c8536d59a692b5e8f83255ac/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/3779266241ef6c2c250ac71095e18c533ad6aac8/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
