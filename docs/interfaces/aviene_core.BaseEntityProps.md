@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[core/src/entity.base.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/465e6d2dce4a66042bb6cf0b4fc0f8bda8a93593/packages/core/src/entity.base.ts#L11)
+[core/src/entity.base.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/918f0a663f60940ef34cd96123686289dca7adda/packages/core/src/entity.base.ts#L11)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:10](https://github.com/stefan-karlsson/node-typescript-libs/blob/465e6d2dce4a66042bb6cf0b4fc0f8bda8a93593/packages/core/src/entity.base.ts#L10)
+[core/src/entity.base.ts:10](https://github.com/stefan-karlsson/node-typescript-libs/blob/918f0a663f60940ef34cd96123686289dca7adda/packages/core/src/entity.base.ts#L10)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/465e6d2dce4a66042bb6cf0b4fc0f8bda8a93593/packages/core/src/entity.base.ts#L12)
+[core/src/entity.base.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/918f0a663f60940ef34cd96123686289dca7adda/packages/core/src/entity.base.ts#L12)
