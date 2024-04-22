@@ -48,4 +48,4 @@ contains a reference to the NestApplicationContext instance.
 
 #### Defined in
 
-[core/src/request-context/app.factory.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/6d8d3752d2844de9b4e3e0f34e55ea3e2b8f6dd6/packages/core/src/request-context/app.factory.ts#L13)
+[core/src/request-context/app.factory.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/049c088af96d2128938a1f4df02925997f6e8c16/packages/core/src/request-context/app.factory.ts#L13)
