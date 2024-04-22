@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[core/src/entity.base.ts:35](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L35)
+[core/src/entity.base.ts:35](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L35)
 
 ## Properties
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-[core/src/entity.base.ts:23](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L23)
+[core/src/entity.base.ts:23](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L23)
 
 ___
 
@@ -88,7 +88,7 @@ and shortid / nanoid for child entities.
 
 #### Defined in
 
-[core/src/entity.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L33)
+[core/src/entity.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L33)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:25](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L25)
+[core/src/entity.base.ts:25](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L25)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L21)
+[core/src/entity.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L21)
 
 ## Accessors
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L54)
+[core/src/entity.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L54)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:50](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L50)
+[core/src/entity.base.ts:50](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L50)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:58](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L58)
+[core/src/entity.base.ts:58](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L58)
 
 ## Methods
 
@@ -172,7 +172,7 @@ Checks if two entities are the same Entity by comparing ID field.
 
 #### Defined in
 
-[core/src/entity.base.ts:70](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L70)
+[core/src/entity.base.ts:70](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L70)
 
 ___
 
@@ -194,7 +194,7 @@ Entity
 
 #### Defined in
 
-[core/src/entity.base.ts:91](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L91)
+[core/src/entity.base.ts:91](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L91)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:118](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L118)
+[core/src/entity.base.ts:118](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L118)
 
 ___
 
@@ -232,7 +232,7 @@ useful when logging an entity during testing/debugging
 
 #### Defined in
 
-[core/src/entity.base.ts:106](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L106)
+[core/src/entity.base.ts:106](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L106)
 
 ___
 
@@ -250,7 +250,7 @@ saving an entity to the database to make sure those rules are respected.
 
 #### Defined in
 
-[core/src/entity.base.ts:143](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L143)
+[core/src/entity.base.ts:143](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L143)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[core/src/entity.base.ts:122](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L122)
+[core/src/entity.base.ts:122](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L122)
 
 ___
 
@@ -290,4 +290,4 @@ entity is Entity\<unknown\>
 
 #### Defined in
 
-[core/src/entity.base.ts:62](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f147efad482afe8dea33dc5eed3f8dd276edcad/packages/core/src/entity.base.ts#L62)
+[core/src/entity.base.ts:62](https://github.com/stefan-karlsson/node-typescript-libs/blob/eab7607a060bd7ec1bd7b0058f2a6a4d8cf4c16f/packages/core/src/entity.base.ts#L62)
