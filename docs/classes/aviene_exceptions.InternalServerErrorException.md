@@ -60,7 +60,7 @@ Used to indicate an internal server error that does not fall under all other err
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/internal-server-error.exception.ts:15](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L15)
+[packages/exceptions/src/exceptions/internal-server-error.exception.ts:15](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L15)
 
 ## Properties
 
@@ -74,7 +74,7 @@ Used to indicate an internal server error that does not fall under all other err
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/internal-server-error.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L13)
+[packages/exceptions/src/exceptions/internal-server-error.exception.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L13)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/internal-server-error.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L12)
+[packages/exceptions/src/exceptions/internal-server-error.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exceptions/internal-server-error.exception.ts#L12)
 
 ___
 
@@ -241,7 +241,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/bb945d5638ca36eb49fafca66664b0734fede65f/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/8f7c54553c2c5a6119b345d61a932dbc2ea95793/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
