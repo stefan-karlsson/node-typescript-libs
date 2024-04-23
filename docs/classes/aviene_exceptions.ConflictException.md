@@ -61,7 +61,7 @@ Used to indicate conflicting entities (usually in the database)
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exception.base.ts#L33)
+[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exception.base.ts#L33)
 
 ## Properties
 
@@ -75,7 +75,7 @@ Used to indicate conflicting entities (usually in the database)
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/conflict.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exceptions/conflict.exception.ts#L12)
+[packages/exceptions/src/exceptions/conflict.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exceptions/conflict.exception.ts#L12)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -232,7 +232,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/b78c59b74e16d97feff9303df2c9bd6ebf9fc456/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/08416c4a8b39acfa563bc70b842fd0bb7d7b345b/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
