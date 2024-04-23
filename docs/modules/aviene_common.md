@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[common/src/logging/logger.service.ts:5](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/logging/logger.service.ts#L5)
+[common/src/logging/logger.service.ts:5](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/logging/logger.service.ts#L5)
 
 ___
 
@@ -50,7 +50,7 @@ Data type that is used to define objects in JavaScript
 
 #### Defined in
 
-[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/types/object-literal.type.ts#L4)
+[common/src/types/object-literal.type.ts:4](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/types/object-literal.type.ts#L4)
 
 ## Functions
 
@@ -70,7 +70,7 @@ Data type that is used to define objects in JavaScript
 
 #### Defined in
 
-[common/src/utils/convert-props-to-object.util.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/convert-props-to-object.util.ts#L11)
+[common/src/utils/convert-props-to-object.util.ts:11](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/convert-props-to-object.util.ts#L11)
 
 ___
 
@@ -94,7 +94,7 @@ True if the value is empty, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-empty.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-empty.util.ts#L6)
+[common/src/utils/is-empty.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-empty.util.ts#L6)
 
 ___
 
@@ -118,7 +118,7 @@ True if the value is an function, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-function.util.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-function.util.ts#L8)
+[common/src/utils/is-function.util.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-function.util.ts#L8)
 
 ___
 
@@ -141,7 +141,7 @@ Checks if target level is enabled.
 
 #### Defined in
 
-[common/src/logging/is-log-level-enabled.util.ts:17](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/logging/is-log-level-enabled.util.ts#L17)
+[common/src/logging/is-log-level-enabled.util.ts:17](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/logging/is-log-level-enabled.util.ts#L17)
 
 ___
 
@@ -165,7 +165,7 @@ True if the value is an object, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-object.util.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-object.util.ts#L9)
+[common/src/utils/is-object.util.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-object.util.ts#L9)
 
 ___
 
@@ -195,7 +195,7 @@ True if the value is not null or undefined, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-present.util.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-present.util.ts#L8)
+[common/src/utils/is-present.util.ts:8](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-present.util.ts#L8)
 
 ___
 
@@ -219,7 +219,7 @@ True if the value is an string, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-string.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-string.util.ts#L6)
+[common/src/utils/is-string.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-string.util.ts#L6)
 
 ___
 
@@ -243,4 +243,4 @@ True if the value is undefined, false otherwise.
 
 #### Defined in
 
-[common/src/utils/is-undefined.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/246b8bd39798d1e91db9534c3d1704658bfb1c03/packages/common/src/utils/is-undefined.util.ts#L6)
+[common/src/utils/is-undefined.util.ts:6](https://github.com/stefan-karlsson/node-typescript-libs/blob/80d0218af75ca6ed5f8f50462e499a15617c001a/packages/common/src/utils/is-undefined.util.ts#L6)
