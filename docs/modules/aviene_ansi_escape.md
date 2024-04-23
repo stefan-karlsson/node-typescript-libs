@@ -38,7 +38,7 @@ conditionally based on the availability of color support.
 
 #### Defined in
 
-[graphics/colorize-text.util.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/2f81052540a5cd5ebc63c9ecb27b455daf95321b/packages/ansi-escape/src/graphics/colorize-text.util.ts#L16)
+[graphics/colorize-text.util.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/58b563203f7bb3920eb8dd5783b1631246a49210/packages/ansi-escape/src/graphics/colorize-text.util.ts#L16)
 
 ___
 
@@ -64,7 +64,7 @@ conditionally based on the availability of color support.
 
 #### Defined in
 
-[graphics/style-text.util.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/2f81052540a5cd5ebc63c9ecb27b455daf95321b/packages/ansi-escape/src/graphics/style-text.util.ts#L16)
+[graphics/style-text.util.ts:16](https://github.com/stefan-karlsson/node-typescript-libs/blob/58b563203f7bb3920eb8dd5783b1631246a49210/packages/ansi-escape/src/graphics/style-text.util.ts#L16)
 
 ## Functions
 
@@ -101,7 +101,7 @@ or returns the text as is if color support is not available.
 
 #### Defined in
 
-[graphics/colorize-text-conditionally.helper.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/2f81052540a5cd5ebc63c9ecb27b455daf95321b/packages/ansi-escape/src/graphics/colorize-text-conditionally.helper.ts#L13)
+[graphics/colorize-text-conditionally.helper.ts:13](https://github.com/stefan-karlsson/node-typescript-libs/blob/58b563203f7bb3920eb8dd5783b1631246a49210/packages/ansi-escape/src/graphics/colorize-text-conditionally.helper.ts#L13)
 
 ___
 
@@ -120,4 +120,4 @@ or false if the NO_COLOR environment variable is set.
 
 #### Defined in
 
-[graphics/is-color-allowed.helper.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/2f81052540a5cd5ebc63c9ecb27b455daf95321b/packages/ansi-escape/src/graphics/is-color-allowed.helper.ts#L9)
+[graphics/is-color-allowed.helper.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/58b563203f7bb3920eb8dd5783b1631246a49210/packages/ansi-escape/src/graphics/is-color-allowed.helper.ts#L9)
