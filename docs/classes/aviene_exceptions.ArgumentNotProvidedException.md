@@ -61,7 +61,7 @@ Used to indicate that an argument was not provided (is empty object/array, null 
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exception.base.ts#L33)
+[packages/exceptions/src/exception.base.ts:33](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exception.base.ts#L33)
 
 ## Properties
 
@@ -75,7 +75,7 @@ Used to indicate that an argument was not provided (is empty object/array, null 
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exception.base.ts#L21)
+[packages/exceptions/src/exception.base.ts:21](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exception.base.ts#L21)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exceptions/argument-not-provided.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exceptions/argument-not-provided.exception.ts#L12)
+[packages/exceptions/src/exceptions/argument-not-provided.exception.ts:12](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exceptions/argument-not-provided.exception.ts#L12)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exception.base.ts#L19)
+[packages/exceptions/src/exception.base.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exception.base.ts#L19)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exception.base.ts#L20)
+[packages/exceptions/src/exception.base.ts:20](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exception.base.ts#L20)
 
 ___
 
@@ -232,7 +232,7 @@ https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 
 #### Defined in
 
-[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/88ac1ca4d1a50c62c010aba74d3500ea43b311c7/packages/exceptions/src/exception.base.ts#L54)
+[packages/exceptions/src/exception.base.ts:54](https://github.com/stefan-karlsson/node-typescript-libs/blob/58a3cca6dfc61e0f10081b9234e32cd3409d69f8/packages/exceptions/src/exception.base.ts#L54)
 
 ___
 
