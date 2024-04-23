@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:41](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L41)
+[common/src/logging/console-logger.service.ts:41](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L41)
 
 ## Properties
 
@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:35](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L35)
+[common/src/logging/console-logger.service.ts:35](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L35)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:39](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L39)
+[common/src/logging/console-logger.service.ts:39](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L39)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:36](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L36)
+[common/src/logging/console-logger.service.ts:36](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L36)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:38](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L38)
+[common/src/logging/console-logger.service.ts:38](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L38)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:34](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L34)
+[common/src/logging/console-logger.service.ts:34](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L34)
 
 ## Methods
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:275](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L275)
+[common/src/logging/console-logger.service.ts:275](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L275)
 
 ___
 
@@ -167,7 +167,7 @@ Prints to `stdout` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:123](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L123)
+[common/src/logging/console-logger.service.ts:123](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L123)
 
 ▸ **debug**(`message`, `...optionalParams`): `void`
 
@@ -188,7 +188,7 @@ LoggerService.debug
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:124](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L124)
+[common/src/logging/console-logger.service.ts:124](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L124)
 
 ___
 
@@ -217,7 +217,7 @@ Prints to `stderr` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:89](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L89)
+[common/src/logging/console-logger.service.ts:89](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L89)
 
 ▸ **error**(`message`, `...optionalParams`): `void`
 
@@ -238,7 +238,7 @@ LoggerService.error
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:90](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L90)
+[common/src/logging/console-logger.service.ts:90](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L90)
 
 ___
 
@@ -266,7 +266,7 @@ Prints to `stdout` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:157](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L157)
+[common/src/logging/console-logger.service.ts:157](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L157)
 
 ▸ **fatal**(`message`, `...optionalParams`): `void`
 
@@ -287,7 +287,7 @@ LoggerService.fatal
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:158](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L158)
+[common/src/logging/console-logger.service.ts:158](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L158)
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:233](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L233)
+[common/src/logging/console-logger.service.ts:233](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L233)
 
 ___
 
@@ -332,7 +332,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:238](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L238)
+[common/src/logging/console-logger.service.ts:238](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L238)
 
 ___
 
@@ -352,7 +352,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:229](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L229)
+[common/src/logging/console-logger.service.ts:229](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L229)
 
 ___
 
@@ -372,7 +372,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:297](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L297)
+[common/src/logging/console-logger.service.ts:297](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L297)
 
 ___
 
@@ -404,7 +404,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:359](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L359)
+[common/src/logging/console-logger.service.ts:359](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L359)
 
 ___
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:301](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L301)
+[common/src/logging/console-logger.service.ts:301](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L301)
 
 ___
 
@@ -449,7 +449,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:317](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L317)
+[common/src/logging/console-logger.service.ts:317](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L317)
 
 ___
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:201](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L201)
+[common/src/logging/console-logger.service.ts:201](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L201)
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:196](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L196)
+[common/src/logging/console-logger.service.ts:196](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L196)
 
 ___
 
@@ -503,7 +503,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:351](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L351)
+[common/src/logging/console-logger.service.ts:351](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L351)
 
 ___
 
@@ -531,7 +531,7 @@ Prints to `stdout` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:72](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L72)
+[common/src/logging/console-logger.service.ts:72](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L72)
 
 ▸ **log**(`message`, `...optionalParams`): `void`
 
@@ -552,7 +552,7 @@ LoggerService.log
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:73](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L73)
+[common/src/logging/console-logger.service.ts:73](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L73)
 
 ___
 
@@ -575,7 +575,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:205](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L205)
+[common/src/logging/console-logger.service.ts:205](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L205)
 
 ___
 
@@ -595,7 +595,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:280](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L280)
+[common/src/logging/console-logger.service.ts:280](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L280)
 
 ___
 
@@ -611,7 +611,7 @@ Resets the logger context to the value that was passed in the constructor.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:192](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L192)
+[common/src/logging/console-logger.service.ts:192](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L192)
 
 ___
 
@@ -633,7 +633,7 @@ Set logger context
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:185](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L185)
+[common/src/logging/console-logger.service.ts:185](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L185)
 
 ___
 
@@ -659,7 +659,7 @@ Set log levels
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:174](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L174)
+[common/src/logging/console-logger.service.ts:174](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L174)
 
 ___
 
@@ -680,7 +680,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:252](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L252)
+[common/src/logging/console-logger.service.ts:252](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L252)
 
 ___
 
@@ -694,7 +694,7 @@ ___
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:287](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L287)
+[common/src/logging/console-logger.service.ts:287](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L287)
 
 ___
 
@@ -722,7 +722,7 @@ Prints to `stdout` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:140](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L140)
+[common/src/logging/console-logger.service.ts:140](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L140)
 
 ▸ **verbose**(`message`, `...optionalParams`): `void`
 
@@ -743,7 +743,7 @@ LoggerService.verbose
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:141](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L141)
+[common/src/logging/console-logger.service.ts:141](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L141)
 
 ___
 
@@ -771,7 +771,7 @@ Prints to `stdout` with newline.
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:106](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L106)
+[common/src/logging/console-logger.service.ts:106](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L106)
 
 ▸ **warn**(`message`, `...optionalParams`): `void`
 
@@ -792,4 +792,4 @@ LoggerService.warn
 
 #### Defined in
 
-[common/src/logging/console-logger.service.ts:107](https://github.com/stefan-karlsson/node-typescript-libs/blob/a7201995c6a3a523aa17f896028947ef36edb9db/packages/common/src/logging/console-logger.service.ts#L107)
+[common/src/logging/console-logger.service.ts:107](https://github.com/stefan-karlsson/node-typescript-libs/blob/b107a0a0ba055e22a843046e683a05331953f2ca/packages/common/src/logging/console-logger.service.ts#L107)
