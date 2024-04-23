@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[core/src/async-hooks/async-scope.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/7d2ca9b04743a4367630e6cd6518c65f0900d54c/packages/core/src/async-hooks/async-scope.ts#L9)
+[core/src/async-hooks/async-scope.ts:9](https://github.com/stefan-karlsson/node-typescript-libs/blob/437480251e17404854047047e51dc4296eb5ba9c/packages/core/src/async-hooks/async-scope.ts#L9)
 
 ## Methods
 
@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[core/src/async-hooks/async-scope.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/7d2ca9b04743a4367630e6cd6518c65f0900d54c/packages/core/src/async-hooks/async-scope.ts#L19)
+[core/src/async-hooks/async-scope.ts:19](https://github.com/stefan-karlsson/node-typescript-libs/blob/437480251e17404854047047e51dc4296eb5ba9c/packages/core/src/async-hooks/async-scope.ts#L19)
