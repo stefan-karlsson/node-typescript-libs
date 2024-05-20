@@ -31,8 +31,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/core
       '@middy/core':
-        specifier: ^5.3.2
-        version: 5.3.2
+        specifier: ^5.3.5
+        version: 5.3.5
     devDependencies:
       '@aviene/eslint-config-node':
         specifier: latest
@@ -735,8 +735,8 @@ packages:
   '@microsoft/tsdoc@0.14.2':
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
 
-  '@middy/core@5.3.2':
-    resolution: {integrity: sha512-g1PonDsJI/t6DldRD/MijnE9kQBWYDZRfGkqJv/Dy+TXyTJmsmk6k/znx+RgqZYlpz1QodWi+6gzRsjPuvM8ew==}
+  '@middy/core@5.3.5':
+    resolution: {integrity: sha512-kMjnRPC30KA52fR/Vb9sBOqYNCvOPwo0hKMtKZ9QfjB+hnaSg0y+hTTX6EArJm+6iFd+0Y6tEwT//qXpCvhTMQ==}
     engines: {node: '>=18'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3881,7 +3881,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.14.2': {}
 
-  '@middy/core@5.3.2':
+  '@middy/core@5.3.5':
     dependencies:
       '@datastream/core': 0.0.35
 
